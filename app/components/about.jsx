@@ -1,15 +1,19 @@
 import React from "react";
+import Image from "next/image";
 
 const About = () => {
   return (
     <div className="about-us_section relative w-full bg-white py-24 sm:px-4 md:px-4 lg:h-full lg:px-10 xl:h-screen xl:px-20">
       <div className="title relative mx-auto flex w-full max-w-7xl items-start justify-center sm:flex-col sm:gap-6 md:gap-5 lg:gap-10 xl:gap-20">
         <div className="left__about rounded-lg sm:w-full md:w-1/2 lg:h-[500px] xl:h-[550px]">
-          <img
+          <Image
             src="/images/about.png"
-            className="h-full w-full rounded-lg object-cover"
-            alt=" about us image"
-            srcset=""
+            className="h-auto w-full rounded-lg object-cover"
+            alt="about us image"
+            width={600} // Use the natural width of the image if known
+            height={400} // Use the natural height of the image if known
+            quality={100} // Set the quality to maximum (optional)
+            layout="responsive" // Ensures the image scales correctly
           />
         </div>
         <div className="right__about flex flex-col items-start justify-start sm:w-full md:w-1/2 lg:h-[500px]">

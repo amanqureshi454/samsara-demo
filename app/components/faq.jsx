@@ -7,11 +7,7 @@ const Faq = () => {
   const [activeElement, setActiveElement] = useState("");
 
   const handleClick = (value) => {
-    if (value === activeElement) {
-      setActiveElement("");
-    } else {
-      setActiveElement(value);
-    }
+    setActiveElement((prev) => (prev === value ? "" : value));
   };
 
   return (
@@ -29,9 +25,9 @@ const Faq = () => {
               <div className="py-2">
                 <h2 className="mb-0" id="headingOne">
                   <button
-                    className={`${
-                      activeElement === "element1" && ``
-                    } text-text-white font-poppins relative flex w-full items-center justify-start gap-5 rounded-[50px] border-0 bg-transparent bg-white py-6 text-left font-normal sm:text-sm md:text-lg`}
+                    className={`text-text-white font-poppins relative flex w-full items-center justify-start gap-5 rounded-[50px] border-0 bg-transparent bg-white py-6 text-left font-normal sm:text-sm md:text-lg ${
+                      activeElement === "element1" ? "active-class" : ""
+                    }`}
                     type="button"
                     onClick={() => handleClick("element1")}
                     aria-expanded="true"
@@ -68,9 +64,9 @@ const Faq = () => {
               <div className="py-2">
                 <h2 className="mb-0" id="headingOne">
                   <button
-                    className={`${
-                      activeElement === "element2" && ``
-                    } text-text-white font-poppins relative flex w-full items-center justify-start gap-5 rounded-[50px] border-0 bg-transparent bg-white py-6 text-left font-normal sm:text-sm md:text-lg`}
+                    className={`text-text-white font-poppins relative flex w-full items-center justify-start gap-5 rounded-[50px] border-0 bg-transparent bg-white py-6 text-left font-normal sm:text-sm md:text-lg ${
+                      activeElement === "element1" ? "active-class" : ""
+                    }`}
                     type="button"
                     onClick={() => handleClick("element2")}
                     aria-expanded="true"
@@ -107,9 +103,9 @@ const Faq = () => {
               <div className="py-2">
                 <h2 className="mb-0" id="headingOne">
                   <button
-                    className={`${
-                      activeElement === "element3" && ``
-                    } text-text-white font-poppins relative flex w-full items-center justify-start gap-5 rounded-[50px] border-0 bg-transparent bg-white py-6 text-left font-normal sm:text-sm md:text-lg`}
+                    className={`text-text-white font-poppins relative flex w-full items-center justify-start gap-5 rounded-[50px] border-0 bg-transparent bg-white py-6 text-left font-normal sm:text-sm md:text-lg ${
+                      activeElement === "element1" ? "active-class" : ""
+                    }`}
                     type="button"
                     onClick={() => handleClick("element3")}
                     aria-expanded="true"
@@ -146,9 +142,9 @@ const Faq = () => {
               <div className="py-2">
                 <h2 className="mb-0" id="headingOne">
                   <button
-                    className={`${
-                      activeElement === "element4" && ``
-                    } text-text-white font-poppins relative flex w-full items-center justify-start gap-5 rounded-[50px] border-0 bg-transparent bg-white py-6 text-left font-normal sm:text-sm md:text-lg`}
+                    className={`text-text-white font-poppins relative flex w-full items-center justify-start gap-5 rounded-[50px] border-0 bg-transparent bg-white py-6 text-left font-normal sm:text-sm md:text-lg ${
+                      activeElement === "element1" ? "active-class" : ""
+                    }`}
                     type="button"
                     onClick={() => handleClick("element4")}
                     aria-expanded="true"
