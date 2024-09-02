@@ -50,10 +50,8 @@ const Faq = () => {
                   className="!mt-0 !rounded-b-none !shadow-none transition-[height] duration-500 ease-in-out"
                 >
                   <div className="text-md px-5 py-4 font-[Satoshi] font-normal text-white">
-                    <strong>
-                      This is the first item&#39;s accordion body.
-                    </strong>{" "}
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    <strong>This is the first accordion body.</strong> Lorem
+                    ipsum dolor sit amet, consectetur adipiscing elit.
                     Vestibulum eu rhoncus purus, vitae tincidunt nibh. Vivamus
                     elementum egestas ligula in varius. Proin ac erat pretium,
                     ultricies leo at, cursus ante. Pellentesque at odio euismod,
@@ -92,10 +90,8 @@ const Faq = () => {
                   className="!mt-0 !rounded-b-none !shadow-none transition-[height] duration-500 ease-in-out"
                 >
                   <div className="text-md px-5 py-4 font-[Satoshi] font-normal text-white">
-                    <strong>
-                      This is the second item&#39;s accordion body.
-                    </strong>{" "}
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    <strong>This is the second accordion body.</strong> Lorem
+                    ipsum dolor sit amet, consectetur adipiscing elit.
                     Vestibulum eu rhoncus purus, vitae tincidunt nibh. Vivamus
                     elementum egestas ligula in varius. Proin ac erat pretium,
                     ultricies leo at, cursus ante. Pellentesque at odio euismod,
@@ -134,10 +130,8 @@ const Faq = () => {
                   className="!mt-0 !rounded-b-none !shadow-none transition-[height] duration-500 ease-in-out"
                 >
                   <div className="text-md px-5 py-4 font-[Satoshi] font-normal text-white">
-                    <strong>
-                      This is the third item&#39;s accordion body.
-                    </strong>{" "}
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    <strong>This is the third accordion body.</strong> Lorem
+                    ipsum dolor sit amet, consectetur adipiscing elit.
                     Vestibulum eu rhoncus purus, vitae tincidunt nibh. Vivamus
                     elementum egestas ligula in varius. Proin ac erat pretium,
                     ultricies leo at, cursus ante. Pellentesque at odio euismod,
@@ -176,10 +170,8 @@ const Faq = () => {
                   className="!mt-0 !rounded-b-none !shadow-none transition-[height] duration-500 ease-in-out"
                 >
                   <div className="text-md px-5 py-4 font-[Satoshi] font-normal text-white">
-                    <strong>
-                      This is the fourth item&#39;s accordion body.
-                    </strong>{" "}
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    <strong>This is the fourth accordion body.</strong> Lorem
+                    ipsum dolor sit amet, consectetur adipiscing elit.
                     Vestibulum eu rhoncus purus, vitae tincidunt nibh. Vivamus
                     elementum egestas ligula in varius. Proin ac erat pretium,
                     ultricies leo at, cursus ante. Pellentesque at odio euismod,
@@ -206,7 +198,7 @@ const Faq = () => {
       <div className="relative my-10 flex h-full w-full flex-col items-center justify-center sm:px-4">
         <p className="text-center font-[Satoshi] font-semibold capitalize text-black sm:text-lg md:text-2xl">
           Still Have Any Doubts?
-          <br /> Contact Us and Ask Your Query&#39;s
+          <br /> Contact Us and Ask Your Query
         </p>
         <p className="mt-5 text-center font-[Satoshi] font-semibold capitalize text-black sm:text-lg md:text-2xl">
           Feel Free to Contact Us
