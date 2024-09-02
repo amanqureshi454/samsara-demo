@@ -50,14 +50,10 @@ const Faq = () => {
                   className="!mt-0 !rounded-b-none !shadow-none transition-[height] duration-500 ease-in-out"
                 >
                   <div className="text-md px-5 py-4 font-[Satoshi] font-normal text-white">
-                    <strong>This is the first accordion body.</strong> Lorem
-                    ipsum dolor sit amet, consectetur adipiscing elit.
-                    Vestibulum eu rhoncus purus, vitae tincidunt nibh. Vivamus
-                    elementum egestas ligula in varius. Proin ac erat pretium,
-                    ultricies leo at, cursus ante. Pellentesque at odio euismod,
-                    mattis urna ac, accumsan metus. Nam nisi leo, malesuada
-                    vitae pretium et, laoreet at lorem. Curabitur non
-                    sollicitudin neque.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Vitae incidunt magni numquam porro beatae ea nobis deserunt
+                    maiores at corrupti vero doloremque quod laborum omnis nemo,
+                    nisi aspernatur obcaecati voluptates.
                   </div>
                 </TECollapse>
               </div>
@@ -90,14 +86,10 @@ const Faq = () => {
                   className="!mt-0 !rounded-b-none !shadow-none transition-[height] duration-500 ease-in-out"
                 >
                   <div className="text-md px-5 py-4 font-[Satoshi] font-normal text-white">
-                    <strong>This is the second accordion body.</strong> Lorem
-                    ipsum dolor sit amet, consectetur adipiscing elit.
-                    Vestibulum eu rhoncus purus, vitae tincidunt nibh. Vivamus
-                    elementum egestas ligula in varius. Proin ac erat pretium,
-                    ultricies leo at, cursus ante. Pellentesque at odio euismod,
-                    mattis urna ac, accumsan metus. Nam nisi leo, malesuada
-                    vitae pretium et, laoreet at lorem. Curabitur non
-                    sollicitudin neque.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Vitae incidunt magni numquam porro beatae ea nobis deserunt
+                    maiores at corrupti vero doloremque quod laborum omnis nemo,
+                    nisi aspernatur obcaecati voluptates.
                   </div>
                 </TECollapse>
               </div>
@@ -130,14 +122,10 @@ const Faq = () => {
                   className="!mt-0 !rounded-b-none !shadow-none transition-[height] duration-500 ease-in-out"
                 >
                   <div className="text-md px-5 py-4 font-[Satoshi] font-normal text-white">
-                    <strong>This is the third accordion body.</strong> Lorem
-                    ipsum dolor sit amet, consectetur adipiscing elit.
-                    Vestibulum eu rhoncus purus, vitae tincidunt nibh. Vivamus
-                    elementum egestas ligula in varius. Proin ac erat pretium,
-                    ultricies leo at, cursus ante. Pellentesque at odio euismod,
-                    mattis urna ac, accumsan metus. Nam nisi leo, malesuada
-                    vitae pretium et, laoreet at lorem. Curabitur non
-                    sollicitudin neque.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Vitae incidunt magni numquam porro beatae ea nobis deserunt
+                    maiores at corrupti vero doloremque quod laborum omnis nemo,
+                    nisi aspernatur obcaecati voluptates.
                   </div>
                 </TECollapse>
               </div>
@@ -170,14 +158,10 @@ const Faq = () => {
                   className="!mt-0 !rounded-b-none !shadow-none transition-[height] duration-500 ease-in-out"
                 >
                   <div className="text-md px-5 py-4 font-[Satoshi] font-normal text-white">
-                    <strong>This is the fourth accordion body.</strong> Lorem
-                    ipsum dolor sit amet, consectetur adipiscing elit.
-                    Vestibulum eu rhoncus purus, vitae tincidunt nibh. Vivamus
-                    elementum egestas ligula in varius. Proin ac erat pretium,
-                    ultricies leo at, cursus ante. Pellentesque at odio euismod,
-                    mattis urna ac, accumsan metus. Nam nisi leo, malesuada
-                    vitae pretium et, laoreet at lorem. Curabitur non
-                    sollicitudin neque.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Vitae incidunt magni numquam porro beatae ea nobis deserunt
+                    maiores at corrupti vero doloremque quod laborum omnis nemo,
+                    nisi aspernatur obcaecati voluptates.
                   </div>
                 </TECollapse>
               </div>
