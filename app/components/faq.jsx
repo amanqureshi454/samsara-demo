@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import { TECollapse } from "tw-elements-react";
+import Image from "next/image"; // Import the Image component from next/image
 
 const Faq = () => {
   const [activeElement, setActiveElement] = useState("");
@@ -21,6 +22,7 @@ const Faq = () => {
         </h4>
         <div className="mt-10 flex items-center justify-between lg:gap-10">
           <div className="accordion_wrapper sm:w-full md:w-full lg:w-1/2">
+            {/* First FAQ Item */}
             <div id="accordionExample">
               <div className="py-2">
                 <h2 className="mb-0" id="headingOne">
@@ -30,7 +32,7 @@ const Faq = () => {
                     }`}
                     type="button"
                     onClick={() => handleClick("element1")}
-                    aria-expanded="true"
+                    aria-expanded={activeElement === "element1"}
                     aria-controls="collapseOne"
                   >
                     <span
@@ -60,16 +62,17 @@ const Faq = () => {
                 </TECollapse>
               </div>
             </div>
+            {/* Second FAQ Item */}
             <div id="accordionExample">
               <div className="py-2">
-                <h2 className="mb-0" id="headingOne">
+                <h2 className="mb-0" id="headingTwo">
                   <button
                     className={`text-text-white font-poppins relative flex w-full items-center justify-start gap-5 rounded-[50px] border-0 bg-transparent bg-white py-6 text-left font-normal sm:text-sm md:text-lg ${
-                      activeElement === "element1" ? "active-class" : ""
+                      activeElement === "element2" ? "active-class" : ""
                     }`}
                     type="button"
                     onClick={() => handleClick("element2")}
-                    aria-expanded="true"
+                    aria-expanded={activeElement === "element2"}
                     aria-controls="collapseTwo"
                   >
                     <span
@@ -87,7 +90,7 @@ const Faq = () => {
                   className="!mt-0 !rounded-b-none !shadow-none transition-[height] duration-500 ease-in-out"
                 >
                   <div className="text-md px-5 py-4 font-[Satoshi] font-normal text-white">
-                    <strong>This is the first item's accordion body.</strong>{" "}
+                    <strong>This is the second item's accordion body.</strong>{" "}
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Vestibulum eu rhoncus purus, vitae tincidunt nibh. Vivamus
                     elementum egestas ligula in varius. Proin ac erat pretium,
@@ -99,17 +102,18 @@ const Faq = () => {
                 </TECollapse>
               </div>
             </div>
+            {/* Third FAQ Item */}
             <div id="accordionExample">
               <div className="py-2">
-                <h2 className="mb-0" id="headingOne">
+                <h2 className="mb-0" id="headingThree">
                   <button
                     className={`text-text-white font-poppins relative flex w-full items-center justify-start gap-5 rounded-[50px] border-0 bg-transparent bg-white py-6 text-left font-normal sm:text-sm md:text-lg ${
-                      activeElement === "element1" ? "active-class" : ""
+                      activeElement === "element3" ? "active-class" : ""
                     }`}
                     type="button"
                     onClick={() => handleClick("element3")}
-                    aria-expanded="true"
-                    aria-controls="collapseTwo"
+                    aria-expanded={activeElement === "element3"}
+                    aria-controls="collapseThree"
                   >
                     <span
                       className={`${
@@ -126,7 +130,7 @@ const Faq = () => {
                   className="!mt-0 !rounded-b-none !shadow-none transition-[height] duration-500 ease-in-out"
                 >
                   <div className="text-md px-5 py-4 font-[Satoshi] font-normal text-white">
-                    <strong>This is the first item's accordion body.</strong>{" "}
+                    <strong>This is the third item's accordion body.</strong>{" "}
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Vestibulum eu rhoncus purus, vitae tincidunt nibh. Vivamus
                     elementum egestas ligula in varius. Proin ac erat pretium,
@@ -138,17 +142,18 @@ const Faq = () => {
                 </TECollapse>
               </div>
             </div>
+            {/* Fourth FAQ Item */}
             <div id="accordionExample">
               <div className="py-2">
-                <h2 className="mb-0" id="headingOne">
+                <h2 className="mb-0" id="headingFour">
                   <button
                     className={`text-text-white font-poppins relative flex w-full items-center justify-start gap-5 rounded-[50px] border-0 bg-transparent bg-white py-6 text-left font-normal sm:text-sm md:text-lg ${
-                      activeElement === "element1" ? "active-class" : ""
+                      activeElement === "element4" ? "active-class" : ""
                     }`}
                     type="button"
                     onClick={() => handleClick("element4")}
-                    aria-expanded="true"
-                    aria-controls="collapseTwo"
+                    aria-expanded={activeElement === "element4"}
+                    aria-controls="collapseFour"
                   >
                     <span
                       className={`${
@@ -165,7 +170,7 @@ const Faq = () => {
                   className="!mt-0 !rounded-b-none !shadow-none transition-[height] duration-500 ease-in-out"
                 >
                   <div className="text-md px-5 py-4 font-[Satoshi] font-normal text-white">
-                    <strong>This is the first item's accordion body.</strong>{" "}
+                    <strong>This is the fourth item's accordion body.</strong>{" "}
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Vestibulum eu rhoncus purus, vitae tincidunt nibh. Vivamus
                     elementum egestas ligula in varius. Proin ac erat pretium,
@@ -179,11 +184,13 @@ const Faq = () => {
             </div>
           </div>
           <div className="right__faq h-[550px] w-1/2 sm:hidden md:hidden lg:block">
-            <img
+            <Image
               src="/images/faq.png"
+              layout="responsive"
+              width={500}
+              height={500}
               className="h-full w-full object-contain"
-              alt=" about us image"
-              srcset=""
+              alt="about us image"
             />
           </div>
         </div>
@@ -191,7 +198,7 @@ const Faq = () => {
       <div className="relative my-10 flex h-full w-full flex-col items-center justify-center sm:px-4">
         <p className="text-center font-[Satoshi] font-semibold capitalize text-black sm:text-lg md:text-2xl">
           Still Have Any Doubts?
-          <br /> Contact Us and Ask Your Query’s
+          <br /> Contact Us and Ask Your Query&#39;s
         </p>
         <p className="mt-5 text-center font-[Satoshi] font-semibold capitalize text-black sm:text-lg md:text-2xl">
           Feel Free to Contact Us
