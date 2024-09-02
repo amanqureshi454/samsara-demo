@@ -122,7 +122,7 @@ const AboutPage = () => {
             <p className="mt-2 text-left font-[Satoshi] font-semibold capitalize text-black md:text-xs lg:text-sm xl:text-lg">
               Personalized Support:{" "}
               <span className="font-normal">
-                {" "}
+             
                 We offer tailored assistance throughout the visa application
                 process, ensuring that each client's needs and goals are met
                 with precision and care.
